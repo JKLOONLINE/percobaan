@@ -35,6 +35,6 @@ print("""_ _____ _   _  ____ _  _____  _        ___  _   _ _     ___ _   _ _____
     os.system("clear")
     print ("Tunggu sebentar...")
     os.system("")
-    os.system("python2  ")
+    os.system("python2 fullenc/hash.py ")
     
     
