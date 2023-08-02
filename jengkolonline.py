@@ -36,5 +36,7 @@ print("""_ _____ _   _  ____ _  _____  _        ___  _   _ _     ___ _   _ _____
     print ("Tunggu sebentar...")
     os.system("")
     os.system("python2 fullenc/hash.py ")
+  if pilih =="1":
+     exit()
     
     
