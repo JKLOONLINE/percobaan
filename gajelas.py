@@ -28,11 +28,11 @@ def menu():
       try:
          os.system('cp ' + a + ' .dec.aes')
          os.system("openssl enc -aes-256-cbc -d -in .dec.aes -out .dec.py")
-#         with open('.dec.py','r') as c:
-#	   d = c.read()
-#	   e = base64.b64decode(str(d))
-#           eval(base64.b64decode(e))
-#           os.system('rm -rf .dec.py')
+         with open('.dec.py','r') as c:
+	   d = c.read()
+	   e = base64.b64decode(str(d))
+           eval(base64.b64decode(e))
+           os.system('rm -rf .dec.py')
          try:
             os.system('python2 .dec.py && rm -rf .dec.py')
             a = raw_input(' coba gan :')
